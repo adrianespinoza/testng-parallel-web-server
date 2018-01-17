@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="platform" value="WINDOWS"/>
+  <parameter name="browser" value="safari"/>
+  <parameter name="version" value="6.0"/>
+  <test name="ThirdTest(failed)" parallel="tests">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="browser" value="safari"/>
+    <parameter name="version" value="6.0"/>
+    <classes>
+      <class name="aveh.parallel.TestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="testSimple"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- aveh.parallel.TestCase -->
+    </classes>
+  </test> <!-- ThirdTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14359" started-at="2013-12-11T20:43:15Z" finished-at="2013-12-11T20:43:29Z">
+    <groups>
+    </groups>
+    <test name="ThirdTest" duration-ms="1138" started-at="2013-12-11T20:43:15Z" finished-at="2013-12-11T20:43:16Z">
+      <class name="aveh.parallel.TestCase">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aveh.parallel.TestCase@7def534e]" name="setUp" is-config="true" duration-ms="0" started-at="2013-12-11T16:43:15Z" finished-at="2013-12-11T16:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[OS/Browser combination invalid: {"browserName"=>"safari", "build"=>"1.0", "project"=>"P1", "browser"=>"safari", "browser_version"=>"6.0", "platform"=>"WINDOWS", "browserVersion"=>"6.0"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 860 milliseconds
+Build info: version: '2.37.0', revision: 'a7c61cb', time: '2013-10-18 17:15:02'
+System info: host: 'AESPINOZAH-DH01', ip: '172.21.7.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: OS/Browser combination invalid: {"browserName"=>"safari", "build"=>"1.0", "project"=>"P1", "browser"=>"safari", "browser_version"=>"6.0", "platform"=>"WINDOWS", "browserVersion"=>"6.0"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 860 milliseconds
+Build info: version: '2.37.0', revision: 'a7c61cb', time: '2013-10-18 17:15:02'
+System info: host: 'AESPINOZAH-DH01', ip: '172.21.7.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at aveh.parallel.TestCase.setUp(TestCase.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testSimple()[pri:0, instance:aveh.parallel.TestCase@7def534e]" name="testSimple" duration-ms="1" started-at="2013-12-11T16:43:16Z" finished-at="2013-12-11T16:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:aveh.parallel.TestCase@7def534e]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-12-11T16:43:16Z" finished-at="2013-12-11T16:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aveh.parallel.TestCase -->
+    </test> <!-- ThirdTest -->
+    <test name="SecondTest" duration-ms="11648" started-at="2013-12-11T20:43:15Z" finished-at="2013-12-11T20:43:26Z">
+      <class name="aveh.parallel.TestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aveh.parallel.TestCase@5737be7]" name="setUp" is-config="true" duration-ms="2802" started-at="2013-12-11T16:43:15Z" finished-at="2013-12-11T16:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:aveh.parallel.TestCase@5737be7]" name="testSimple" duration-ms="4714" started-at="2013-12-11T16:43:18Z" finished-at="2013-12-11T16:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aveh.parallel.TestCase@5737be7]" name="tearDown" is-config="true" duration-ms="4125" started-at="2013-12-11T16:43:22Z" finished-at="2013-12-11T16:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aveh.parallel.TestCase -->
+    </test> <!-- SecondTest -->
+    <test name="FirstTest" duration-ms="14358" started-at="2013-12-11T20:43:15Z" finished-at="2013-12-11T20:43:29Z">
+      <class name="aveh.parallel.TestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aveh.parallel.TestCase@4428573f]" name="setUp" is-config="true" duration-ms="3529" started-at="2013-12-11T16:43:15Z" finished-at="2013-12-11T16:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:aveh.parallel.TestCase@4428573f]" name="testSimple" duration-ms="6223" started-at="2013-12-11T16:43:18Z" finished-at="2013-12-11T16:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aveh.parallel.TestCase@4428573f]" name="tearDown" is-config="true" duration-ms="4599" started-at="2013-12-11T16:43:25Z" finished-at="2013-12-11T16:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aveh.parallel.TestCase -->
+    </test> <!-- FirstTest -->
+  </suite> <!-- Suite -->
+</testng-results>
